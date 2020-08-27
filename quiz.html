@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Quiz Page</title>
+
+    <!-- style.css -->
+    <link rel="stylesheet" href="/resources/Style/style.css" />
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="sidenav">
+       <a onclick="show(0)" >Question 1</a> <hr class="inshn">
+       <a onclick="show(1)" >Question 2</a><hr class="inshn">
+       <a onclick="show(2)"> Question 3</a><hr class="inshn">
+       <a onclick="show(3)" >Question 4</a><hr class="inshn">
+       <a onclick="show(4)" >Question 5</a><hr class="inshn">
+       <a onclick="show(5)" >Question 6</a><hr class="inshn">
+       <a onclick="show(6)" >Question 7</a><hr class="inshn">
+       <a onclick="show(7)" >Question 8</a><hr class="inshn">
+       <a onclick="show(8)" >Question 9</a><hr class="inshn">
+       <a onclick="show(9)" >Question 10</a><hr class="inshn">
+       
+      </div>
+    <div class="wrapper">
+      <div class="quiz">
+        <div class="quiz_header">           
+          <div class="quiz_user">
+            <h4>Welcome! <span class="name"></span></h4>
+          </div>
+          <div class="quiz_timer">
+            <span class="time">00:00</span>
+          </div>
+        </div>
+        <div class="quiz_body">
+          <div id="questions">
+            <!--<h2>Q1.Rasode Mein Kaun Thi?</h2>        
+
+             <ul class="option_group">
+              <li class="option">Mai Thi?</li>
+              <li class="option">Tum Thi?</li>
+              <li class="option">Kaun Tha?</li>
+              <li class="option">Rashi Behn</li>
+            </ul> -->
+          </div>
+
+          <button class="btn-next" onclick="next()">Next Question</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- site.js -->
+    <script src="/resources/Script/quiz.js"></script>
+ <script src="/resources/Script/userInfo.js"></script>    
+ <script src="/resources/Script/quizsite.js"></script>
+  </body>
+</html>
