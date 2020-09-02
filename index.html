@@ -10,18 +10,13 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway:300,700" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Libre+Baskerville' rel='stylesheet'>    
 <link href='https://fonts.googleapis.com/css?family=Carter One' rel='stylesheet'>
-    <title>Neon Hover Buttons</title>
+    <title>QuizIn</title>
     <link rel="stylesheet" href="/resources/Style/style.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="topnav">
-  <a href="#contact">Contact</a>
-  <a href="#about">AboutUs</a>
-  <a href="#home">Home</a>
-  <a href="#" class="logo">QuizIn!<a/>
-      </div>   
+       
  <div class="mainb">
      <div class="leftb">
          <img src="QUizIn.png" id="logoimg" alt="QuizIn! Logo" width="300px" height="320px">
@@ -37,14 +32,16 @@
           <br><br>
           2.There are only Multiple Choice questions with only one option correct.
           <br><br>
-          3.Select an answer for every question. Unanswered questions will be scored as incorrect
+          3.Select an answer for every question. Unanswered questions will be marked as incorrect.
           <br><br>
-          4.You will be awarded 5 point for each correct and deducted 2 for wrong answer.
+          4.You have only 5 mins to attempt the quiz.Quiz will end as soon as the timer runs out.
           <br><br>
-          5.If you want to try to get a better score, click the Try Again button at the bottom of the results page. You can try the quiz as many times as you like
+          5.You will be awarded 5 point for each correct and deducted 2 for wrong answer.
           <br><br>
-          6.At the end of the Quiz, your total score will be displayed. The maximum score is 50 points.
-           </p>
+          6.If you want to try to get a better score, click the Try Again button at the bottom of the results page. You can try the quiz as many times as you like
+          <br><br>
+          7.At the end of the Quiz, your total score will be displayed. The maximum score is 50 points.
+          <br>
           <h2 class="luck">Good Luck!</h2>   
         </div>
         
@@ -54,6 +51,7 @@
     <form class="welcome_form" name="welcome_form" onsubmit="submitForm(event)">
         <input type="text" placeholder="Input Your Name"  name="name">
         <button>Start Quiz!</button>
+        <p class="note">Note: Quiz and Timer Starts As soon as Start Quiz button is clicked.</p>
     </form>
 </div>
 <script src="/resources/Script/quiz.js"></script>

@@ -9,15 +9,29 @@
 <link rel="stylesheet" href="/resources/Style/style.css">
 <link rel="stylesheet" href="style.css">
 <body>
-    <div class="wrapper">
-        <div>
-            <i class="fa fa-trophy award_icon" aria-hidden="true"></i>
+    <div class="resultpage">
+    <div class="wrapperR">
+        <div class="leftb">
+            <img src="QUizIn.png" id="logoimg" alt="QuizIn! Logo" width="300px" height="320px">
+           <p class="slogan">Thank You For Taking The Quiz <span class="name"></span>.</p>
+           </div>
+            
             <div class="result">
-           <h3 class="username">well done! <span class="name"></span></h3>
-           <p class="userpoints">Your Points <span class="points"></span></p>
-         <p class="usertime"> Time taken <span class="time_taken"></span></p>
+           <p class="userpoints">Your Points:   <span class="points"></span></p>
+           <p class="usercorrect">Correct Answers:  <span class="corrects"></span></p>
         </div>
-        </div>
+        
+        
+    </div>
+    <div class="endbut">
+        <form class="end_form" name="end_form" onsubmit="submitForm(event)">
+        <button>Try Again</button>
+        </form>
+        <form class="end_form" name="end_form" onsubmit="submitForm1(event)">
+            <button>Answers</button>
+            </form>
+    </div>
+    
     </div>
     
 
