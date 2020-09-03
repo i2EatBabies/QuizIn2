@@ -372,6 +372,9 @@ a.logo:hover{
   font-size: 2.5em;
   text-decoration: underline solid  black ;
   }
+  .main{
+    max-height: 100vh;
+  }
   @media screen and (max-width: 675px)
   {
     body{
