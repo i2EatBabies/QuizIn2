@@ -114,7 +114,15 @@ a.logo:hover{
 #logoimg{
     box-sizing: border-box;    
     margin-bottom: 5vh;
-}
+    max-width: 350px;
+    height: auto;
+    }
+    #logoimglst{
+      box-sizing: border-box;    
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 2vh;
+      }
 .rightb{
     display: flex;
     flex-direction: column;
