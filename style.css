@@ -8,8 +8,7 @@
 body {
   min-height: 100vh;
   background-image: url("MegaTron.jpg");
-  overflow: hidden;
-}
+  }
 
 a.logo{
 float:left;
@@ -440,7 +439,8 @@ a.logo:hover{
     }
     .end_form button{
       min-width: 80vw;
-      margin: none;
+      margin-top: 1vh;
+      float: bottom;
       }
       .resultpage{
         margin: none;
